@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+.logo{
+    text-align: left;
+    margin: 1.3em;
+    position: absolute;
+    z-index: 2;
+}
+
+.container {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('https://adrenaline.com.br/uploads/chamadas/netflix-imagem_clique_chamada.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.box{
+    z-index: 2;
+    text-align: center;
+    border: left;
+    font-weight: 80;
+    font-size: 20px;
+}
+
+p{
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+}
+
+
+fieldset{
+    background-color: black;
+    width: 400px;
+    height: 550px;
+    border: none;
+    margin: 0;
+}
+
+
+input{
+    width: 300px;
+    height: 50px;
+    background-color: #333333;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3.5px;
+    font-size: 18px;
+
+}
+
+#button{
+    background-color: #FF0000;
+    color: white;
+    width: 300px;
+    height: 50px;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3.5px;
+    font-size: 18px;
+}
+
+
+#checkbox{
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox{
+    color: #333333;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
